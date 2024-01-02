@@ -7,6 +7,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.link1 {
+        display: none;
+}
+
 body {
     background: #ecf8f9;
 }

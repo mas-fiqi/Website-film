@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nontonkuy Login</title>
     <link rel="stylesheet" href="{%static 'css/style_login.css'%}">
+    <link class="link1" rel="icon" href="{% static 'img/N-icon.png' %}"type=" image/x-icon">
+
 </head>
 <body>
     <nav>
@@ -13,16 +15,16 @@
     </nav>
     <div class="form-wrapper" >
         <h2>Sign In</h2>
-        <form action="#" method="post">
+        <form action="index">
             <div class="form-control">
-                <input type="text"  name="Userid" id= "Userid" maxlength="30" required>
+                <input type="text" required>
                 <label>Email or phone number</label>
             </div>
             <div class="form-control">
-                <input type="password" name="password" id="password" maxlength="30" required>
+                <input type="password" required>
                 <label>Password</label>
             </div>
-            <button type="submit">Sign In</button>
+            <button href= "index.html" type="submit">Sign In</button>
             <div class="form-help"> 
                 <div class="remember-me">
                     <input type="checkbox" id="remember-me">
