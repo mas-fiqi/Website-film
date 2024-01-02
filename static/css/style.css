@@ -97,8 +97,7 @@
   }
   
   
-  /* MAIN CONTIANER */
-  /* MAIN CONTIANER */
+/* MAIN CONTAINER */
 .main-container {
   padding: 50px;
   margin-right: 100px;
@@ -107,8 +106,9 @@
 .box {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); /* Update this line */
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   margin-right: -10px;
+  height: auto; /* You can set a specific height for the container if needed */
 }
 
 .box a {
@@ -124,8 +124,11 @@
 
 .box img {
   border-radius: 2px;
+  max-width: 100%;
+  height: 200px; /* Set the desired height for the container */
+  object-fit: contain;
 }
-  
+
   /* LINKS */
   .link {
     padding: 50px;
